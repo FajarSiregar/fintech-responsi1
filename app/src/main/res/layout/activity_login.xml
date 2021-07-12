@@ -17,7 +17,7 @@
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        app:srcCompat="@drawable/ic_mac"/>
+        app:srcCompat="@drawable/ic_mac" />
         
     <TextView
         android:layout_width="wrap_content"
