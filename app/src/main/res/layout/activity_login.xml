@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:hint="Email"
-        android:inputType="textPersonName" />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/txpassword"
@@ -47,23 +47,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textColor="@color/design_default_color_on_primary"
         android:layout_marginBottom="10dp"
-        style="@style/CardView" />
+        android:textColor="@style/Widget.AppCompat.Button.Colored" />
 
     <TextView
         android:id="@+id/tvForgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password?"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="30dp" />
 
     <TextView
         android:id="@+id/tvCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create Account"
-        android:layout_marginBottom="10dp" />
+        android:text="Haven"t Account"
+        android:layout_marginBottom="30dp" />
 
 
 </LinearLayout>
